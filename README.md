@@ -247,4 +247,5 @@ In [one-broker-ch-rust-native](https://github.com/gklijs/open-bank-mark/tree/one
 The results of comparing 4 different implementations of the Command Handler can be found here [open-bank](https://open-bank.gklijs.tech/).
 Some of the graphs where presented at a Kafka meetup of which the slides are available on [speakerdeck](https://speakerdeck.com/gklijs/adding-some-rust-to-your-kafka).
 The raw data for these can be found in [data-ch-languages-one-broker](https://github.com/gklijs/open-bank-mark/tree/data-ch-languages-one-broker).
-# Bank-Master
+### Bank-Master by:
+Gilbert Bett
