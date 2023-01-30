@@ -1,0 +1,36 @@
+@startuml
+
+left to right direction
+title All connections
+
+[Kafka cluster] as kc #Orange
+[Zookeeper cluster] as zc #Orange
+[Schema registry] as sr #Orange
+[Synchronizer] as sy #Yellow
+[Heartbeat] as hb #Yellow
+[Command generator] as cg #Yellow
+[Command handler] as ch #Yellow
+[GraphQL endpoint] as ge #Yellow
+[Frontend server] as fs #LightGreen
+actor client as cl
+database balancedb as pgb #LightBlue
+database transactiondb as pgt #LightBlue
+
+sy ..> sr : set schemas
+sy ..> kc : creates topics
+fs --> cl : provides frontend code
+cl <--> ge : exchange information\nusing GraphQL
+kc <..> zc : get and set meta data
+cg <--> kc : exchange data using avro
+kc <--> ch : exchange data using avro
+kc <--> ge : exchange data using avro
+hb --> kc : produces Heartbeat
+pgb <-> ch : keep track witch\rmessages have been handled\nkeep the balances
+pgt <-> ge : stores/queries transactions\rstores profiles
+sr --> ch : get schemas
+sr --> ge : get schemas
+sr -> kc : store schemas
+hb <-- sr : get schemas
+cg <-- sr : get schemas
+
+@enduml

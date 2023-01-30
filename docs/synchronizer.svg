@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="508px" preserveAspectRatio="none" style="width:838px;height:508px;" version="1.1" viewBox="0 0 838 508" width="838px" zoomAndPan="magnify"><defs><filter height="300%" id="f1vogkpm1u4nj" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="4.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="8.0" dy="8.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="36" lengthAdjust="spacingAndGlyphs" textLength="222" x="315" y="34.8047">Synchronizer</text><!--cluster nl.openweb.synchronizer--><polygon fill="#FFFF00" filter="url(#f1vogkpm1u4nj)" points="88,74.3984,452,74.3984,466,119.375,538,119.375,538,216.3984,88,216.3984,88,74.3984" style="stroke: #000000; stroke-width: 3.0;"/><line style="stroke: #000000; stroke-width: 3.0;" x1="88" x2="466" y1="119.375" y2="119.375"/><text fill="#000000" font-family="sans-serif" font-size="28" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="352" x="96" y="105.4688">nl.openweb.synchronizer</text><!--entity admin--><rect fill="#FEFECE" filter="url(#f1vogkpm1u4nj)" height="72.9766" style="stroke: #A80036; stroke-width: 3.0;" width="164" x="104" y="128.3984"/><rect fill="#FEFECE" height="10" style="stroke: #A80036; stroke-width: 3.0;" width="20" x="94" y="138.3984"/><rect fill="#FEFECE" height="10" style="stroke: #A80036; stroke-width: 3.0;" width="20" x="94" y="181.375"/><text fill="#000000" font-family="sans-serif" font-size="28" lengthAdjust="spacingAndGlyphs" textLength="124" x="124" y="175.4688">admin.clj</text><!--entity schema--><rect fill="#FEFECE" filter="url(#f1vogkpm1u4nj)" height="72.9766" style="stroke: #A80036; stroke-width: 3.0;" width="182" x="339" y="128.3984"/><rect fill="#FEFECE" height="10" style="stroke: #A80036; stroke-width: 3.0;" width="20" x="329" y="138.3984"/><rect fill="#FEFECE" height="10" style="stroke: #A80036; stroke-width: 3.0;" width="20" x="329" y="181.375"/><text fill="#000000" font-family="sans-serif" font-size="28" lengthAdjust="spacingAndGlyphs" textLength="142" x="359" y="175.4688">schema.clj</text><!--entity kc--><rect fill="#FFA500" filter="url(#f1vogkpm1u4nj)" height="72.9766" style="stroke: #A80036; stroke-width: 3.0;" width="216" x="12" y="414.3984"/><rect fill="#FFA500" height="10" style="stroke: #A80036; stroke-width: 3.0;" width="20" x="2" y="424.3984"/><rect fill="#FFA500" height="10" style="stroke: #A80036; stroke-width: 3.0;" width="20" x="2" y="467.375"/><text fill="#000000" font-family="sans-serif" font-size="28" lengthAdjust="spacingAndGlyphs" textLength="176" x="32" y="461.4688">Kafka cluster</text><!--entity sr--><rect fill="#FFA500" filter="url(#f1vogkpm1u4nj)" height="72.9766" style="stroke: #A80036; stroke-width: 3.0;" width="258" x="367" y="414.3984"/><rect fill="#FFA500" height="10" style="stroke: #A80036; stroke-width: 3.0;" width="20" x="357" y="424.3984"/><rect fill="#FFA500" height="10" style="stroke: #A80036; stroke-width: 3.0;" width="20" x="357" y="467.375"/><text fill="#000000" font-family="sans-serif" font-size="28" lengthAdjust="spacingAndGlyphs" textLength="218" x="387" y="461.4688">Schema registry</text><!--link admin to kc--><path d="M149.5276,201.2428 C135.5594,217.8758 121.2468,238.6578 114,260.3984 C98.2884,307.533 103.131,364.9382 109.7864,404.2336 " fill="none" id="admin-kc" style="stroke: #A80036; stroke-width: 2.0;"/><polygon fill="#A80036" points="111.6008,414.3142,116.2858,395.1818,109.8294,404.4724,100.5388,398.016,111.6008,414.3142" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="26" lengthAdjust="spacingAndGlyphs" textLength="280" x="122" y="287.5352">creates/deletes topics</text><text fill="#000000" font-family="sans-serif" font-size="26" lengthAdjust="spacingAndGlyphs" textLength="292" x="116" y="318.1563">using the topology.edn</text><text fill="#000000" font-family="sans-serif" font-size="26" lengthAdjust="spacingAndGlyphs" textLength="0" x="266" y="348.7773"/><!--link schema to sr--><path d="M438.359,200.6204 C450.2452,252.1274 472.0406,346.574 485.1568,403.4108 " fill="none" id="schema-sr" style="stroke: #A80036; stroke-width: 2.0;"/><polygon fill="#A80036" points="487.5004,413.567,491.2475,394.229,485.2515,403.8232,475.6573,397.8272,487.5004,413.567" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="26" lengthAdjust="spacingAndGlyphs" textLength="338" x="476" y="302.5352">sets/updates the schema's</text><text fill="#000000" font-family="sans-serif" font-size="26" lengthAdjust="spacingAndGlyphs" textLength="290" x="500" y="333.1563">using the schemas.edn</text><!--
+@startuml
+
+title Synchronizer
+
+package nl.openweb.synchronizer #Yellow {
+    component admin.clj as admin
+    component schema.clj as schema
+}
+[Kafka cluster] as kc #Orange
+[Schema registry] as sr #Orange
+
+admin - -> kc: creates/deletes topics\nusing the topology.edn\n
+schema - -> sr: sets/updates the schema's\nusing the schemas.edn
+
+@enduml
+
+PlantUML version 1.2019.05(Sat Apr 20 18:45:36 CEST 2019)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 1.8.0_202-release-1483-b49
+Operating System: Mac OS X
+OS Version: 10.14.5
+Default Encoding: UTF-8
+Language: en
+Country: NL
+--></g></svg>
